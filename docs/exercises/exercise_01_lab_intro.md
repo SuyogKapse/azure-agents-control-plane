@@ -84,6 +84,10 @@ Open VS Code. Press `Ctrl+K Ctrl+O` (or go to **File → Open Folder…**). In t
 
 Open the Copilot Chat panel (`Ctrl+Alt+I`) and select **Agent** from the mode dropdown at the top of the chat window. Agent Mode allows Copilot to execute multi-step tasks: it can read files, run terminal commands, edit code, and chain actions together autonomously. Select Opus 4.6 model
 
+Then Move Chat into New Window. Find the ... and Choose Move Chat into a New Window:
+
+    ![Picture1](./media/7.png)
+
 **Step 2 — Enter a Prompt and Review the Plan**
 
 Type your prompt in the chat input:
