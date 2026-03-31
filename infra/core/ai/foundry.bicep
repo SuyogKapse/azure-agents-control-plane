@@ -20,13 +20,13 @@ param modelVersion string
 param modelCapacity int
 
 @description('Fine-tuning model deployment name')
-param fineTuneModelDeploymentName string = 'gpt-4o-mini'
+param fineTuneModelDeploymentName string = 'gpt-5-mini'
 
 @description('Fine-tuning model name')
-param fineTuneModelName string = 'gpt-4o-mini'
+param fineTuneModelName string = 'gpt-5-mini'
 
 @description('Fine-tuning model version')
-param fineTuneModelVersion string = '2024-07-18'
+param fineTuneModelVersion string = '2025-08-07'
 
 @description('Fine-tuning model capacity')
 param fineTuneModelCapacity int = 10
@@ -124,7 +124,7 @@ resource modelDeployment 'Microsoft.CognitiveServices/accounts/deployments@2025-
   }
 }
 
-// Deploy gpt-4o-mini model for fine-tuning
+// Deploy gpt-5-mini model for fine-tuning
 resource fineTuneModelDeployment 'Microsoft.CognitiveServices/accounts/deployments@2025-06-01' = {
   parent: foundryAccount
   name: fineTuneModelDeploymentName
