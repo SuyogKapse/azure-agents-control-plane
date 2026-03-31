@@ -98,15 +98,15 @@
     },
     "foundryModelDeploymentName": {
       "type": "string",
-      "defaultValue": "gpt-4o-mini"
+      "defaultValue": "gpt-5-mini"
     },
     "foundryModelName": {
       "type": "string",
-      "defaultValue": "gpt-4o-mini"
+      "defaultValue": "gpt-5-mini"
     },
     "foundryModelVersion": {
       "type": "string",
-      "defaultValue": "2024-07-18"
+      "defaultValue": "2025-08-07"
     },
     "foundryModelCapacity": {
       "type": "int",
@@ -4156,7 +4156,7 @@
               "apiVersion": "2025-06-01",
               "name": "[format('{0}/{1}', parameters('foundryName'), parameters('modelDeploymentName'))]",
               "sku": {
-                "name": "Standard",
+                "name": "GlobalStandard",
                 "capacity": "[parameters('modelCapacity')]"
               },
               "properties": {
@@ -4177,7 +4177,7 @@
               "apiVersion": "2025-06-01",
               "name": "[format('{0}/{1}', parameters('foundryName'), parameters('embeddingModelDeploymentName'))]",
               "sku": {
-                "name": "Standard",
+                "name": "GlobalStandard",
                 "capacity": "[parameters('embeddingModelCapacity')]"
               },
               "properties": {
