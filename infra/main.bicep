@@ -30,15 +30,15 @@ param disableLocalAuth bool = true
 
 // Foundry AI configuration
 param foundryName string = ''
-param foundryModelDeploymentName string = 'gpt-4o-mini'
-param foundryModelName string = 'gpt-4o-mini'
-param foundryModelVersion string = '2024-07-18'
+param foundryModelDeploymentName string = 'gpt-5-mini'
+param foundryModelName string = 'gpt-5-mini'
+param foundryModelVersion string = '2025-08-07'
 param foundryModelCapacity int = 10
 
 // Fine-tuning model configuration
-param fineTuneModelDeploymentName string = 'gpt-4o-mini'
-param fineTuneModelName string = 'gpt-4o-mini'
-param fineTuneModelVersion string = '2024-07-18'
+param fineTuneModelDeploymentName string = 'gpt-5-mini'
+param fineTuneModelName string = 'gpt-5-mini'
+param fineTuneModelVersion string = '2025-08-07'
 param fineTuneModelCapacity int = 10
 
 // Embeddings model configuration
@@ -985,7 +985,7 @@ module appInsightsRoleAssignmentMcp './core/monitor/appinsights-access.bicep' = 
 // Next Best Action Agent Identity Role Assignments
 // =========================================
 // Comprehensive role assignments for the Entra Agent Identity
-// Grants access to: CosmosDB, AI Search (Foundry IQ), Storage, OpenAI (gpt-4o-mini), Foundry Project
+// Grants access to: CosmosDB, AI Search (Foundry IQ), Storage, OpenAI (gpt-5-mini), Foundry Project
 
 module agentRoleAssignments './app/agent-RoleAssignments.bicep' = if (agentIdentityEnabled) {
   name: 'agentRoleAssignments'
