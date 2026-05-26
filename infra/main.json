@@ -6389,7 +6389,7 @@
             "value": "[variables('searchResourceName')]"
           },
           "location": {
-            "value": "[parameters('location')]"
+            "value": "westus2"
           },
           "tags": {
             "value": "[variables('tags')]"
