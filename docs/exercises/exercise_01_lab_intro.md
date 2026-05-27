@@ -260,3 +260,5 @@ Before proceeding to Exercise 2, please confirm the following:
 ---
 
 To continue the lab, click on the **Next** button.
+
+![alt text](media/page_no3.png)

@@ -56,7 +56,8 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
  
        ![](./media/temp-english.png)
 
-1. If you see the pop-up **Stay Signed in?**, select **No**.       
+1. If you see the pop-up **Stay Signed in?**, select **No**.
+   - ![](./media/sign_in_no.png)      
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
 
@@ -135,5 +136,6 @@ Learner Support Contacts:
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Now, click on **Next >>** from the lower right corner to move on to the next page.
+   ![](./media/page_no1.png)
  
 ### Happy learning!

@@ -74,5 +74,5 @@ By the end of this lab, you will be able to:
 ## Getting Started
 
 To begin the lab, click on the **Next** button.
-
+![alt text](../labfiles/media/page_no2.png)
 ---
