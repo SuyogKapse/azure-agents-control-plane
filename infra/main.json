@@ -34,7 +34,7 @@
         "southeastasia",
         "swedencentral",
         "uksouth",
-        "westus2",
+        "westus3",
         "eastus2euap"
       ],
       "metadata": {
@@ -2408,7 +2408,7 @@
             "value": "[variables('tags')]"
           },
           "kubernetesVersion": {
-            "value": "1.32.0"
+            "value": "1.35.4"
           },
           "systemNodePoolVmSize": {
             "value": "Standard_DS2_v2"
@@ -2466,7 +2466,7 @@
             },
             "kubernetesVersion": {
               "type": "string",
-              "defaultValue": "1.32.0",
+              "defaultValue": "1.35.4",
               "metadata": {
                 "description": "Kubernetes version"
               }
@@ -6389,7 +6389,7 @@
             "value": "[variables('searchResourceName')]"
           },
           "location": {
-            "value": "westus2"
+            "value": "[parameters('location')]"
           },
           "tags": {
             "value": "[variables('tags')]"
