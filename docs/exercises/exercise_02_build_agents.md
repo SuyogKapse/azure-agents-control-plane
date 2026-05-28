@@ -233,4 +233,4 @@ The agent implements MC protocol and is integrated with the Azure Agents Control
 ---
 
 To continue the lab, click on the **Next** button.
-![alt text](media/page_no4.png)
+![Next button](media/page_no4.png)
